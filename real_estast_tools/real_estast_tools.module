@@ -1,0 +1,179 @@
+<?php
+
+function real_estast_form_alter(&$form, &$form_state, $form_id) {
+  if($form_id == 'contact_site_form') {
+    $form['name']['#prefix'] = '<div class="contact-form-group">';
+    $form['subject']['#suffix'] = '</div>';
+  }
+  elseif ($form['#id'] == 'views-exposed-form-properties-page-4'){
+	  $form['submit']['#value'] = t($form['submit']['#value']);
+	  $form['field_business_type_tid_i18n']["#options"]["All"]= t($form['field_business_type_tid_i18n']["#options"]["All"]);
+	  $form['field_property_type_tid_i18n']["#options"]["All"]= t($form['field_property_type_tid_i18n']["#options"]["All"]);
+	  $form['field_location_tid_i18n']["#options"]["All"]= t($form['field_location_tid_i18n']["#options"]["All"]);
+	  $form['field_bedrooms_tid_i18n']["#options"]["All"]= t($form['field_bedrooms_tid_i18n']["#options"]["All"]);
+	  
+	  
+		//ob_start();
+        //
+		//var_dump($form['field_business_type_tid_i18n']);
+		//$dumpy = ob_get_clean();	
+		//watchdog('talentinside', 'Inside my_requete1:'.$dumpy);	
+		////watchdog('realestate', 'I m here');
+  }
+}
+
+
+function real_estast_tools_views_post_execute(&$view) {
+  
+   
+   //$structure_views = array_keys(get_object_vars($view));
+   //var_dump($structure_views);
+   
+   // and $view_display =='views_data_export_1'
+   
+	if ($view->name == 'annonce_feeds') {
+			ob_start();
+			//$displayObj = $view->getDisplay();
+			//$displayName = $displayObj->display['display_title'];
+			//var_dump($view->current_display);
+		if ($view->current_display == "views_data_export_1"){
+			//$view_display = $view->getDisplay();
+			
+			foreach ($view->result as $key => $result) {
+				// Replace all empty fields with the dash '-' character.
+				//var_dump(array_keys(get_object_vars($view)));
+				var_dump(array_keys($view->display));
+				
+				$annonce_feeds = get_object_vars($result);
+				$field_field_commodities = $result->field_field_commodities;
+				$field_field_floor_area = $result->field_field_floor_area;
+				$field_field_lot_area = $result->field_field_lot_area;
+				$field_field_year = $result->field_field_year;
+				$field_field_property_type = $result->field_field_property_type;
+				$field_field_business_type = $result->field_field_business_type;
+				$field_field_floor_area = $result->field_field_floor_area;
+				
+				//var_dump(array_keys($annonce_feeds));
+				//var_dump(array_keys(get_object_vars($result)));
+				//var_dump($field_field_floor_area);
+				//var_dump($field_field_lot_area);
+				//var_dump($field_field_year);
+				
+				//Hide land area in case house area is mentionned.
+				if (isset ($field_field_lot_area[0]["rendered"]["#markup"]) and 
+				isset($field_field_floor_area[0]["rendered"]["#markup"])){
+					//var_dump("change");
+					//unset ($view->result[$key]->field_field_lot_area);
+					$view->result[$key]->field_field_lot_area = array();
+					//$view->result[$key]->field_field_floor_area["rendered"]["#markup"]="9000";
+				}
+				
+				
+				//Adaptation de l'année vers un intervalle.
+				if (isset($field_field_year[0]["rendered"]["#markup"])){
+					$current_year = date("Y");
+					$delta_year = $current_year - $field_field_year[0]["rendered"]["#markup"];
+					if ($delta_year  < 1 ){
+						$delta_year = "L1";
+					}
+					elseif ($delta_year >= 1 and $delta_year < 5 ){
+						$delta_year = "F1T5";
+					}
+					elseif ($delta_year >= 5 and $delta_year < 10 ){
+						$delta_year = "F5T10";
+					}
+					elseif ($delta_year >= 10 and $delta_year < 20 ){
+						$delta_year = "F10T20";
+					}
+					elseif ($delta_year >= 20 and $delta_year < 30 ){
+						$delta_year = "F20T30";
+					}
+					elseif ($delta_year >= 30 and $delta_year < 50 ){
+						$delta_year = "F30T50";
+					}
+					elseif ($delta_year >= 50 and $delta_year < 70 ){
+						$delta_year = "F50T70";
+					}
+					elseif ($delta_year >= 70 and $delta_year < 100 ){
+						$delta_year = "F70T100";
+					}
+					else{
+						$delta_year = "G100";
+					}
+					$result->field_field_year[0]["rendered"]["#markup"] = $delta_year;
+					//var_dump ("Changed to:".$delta_year);
+				}
+				
+				//Adaptation du type de l'offre
+				if (isset($field_field_business_type[0]["rendered"]["#markup"])){
+					if ($field_field_business_type[0]["rendered"]["#markup"]!="Location"){
+						var_dump ("Changing:".$result->field_field_business_type[0]["rendered"]["#markup"]);
+						$result->field_field_business_type[0]["rendered"]["#markup"]= "Vente";
+					}			
+				}
+				else{
+					var_dump ("field_field_business_type is not set");
+				}
+				
+				//Adaptation du nombre d'étages
+				if (isset($field_field_floor_area[0]["rendered"]["#markup"])){
+					if ($field_field_floor_area[0]["rendered"]["#markup"]=="1.5"){
+						$result->field_field_floor_area[0]["rendered"]["#markup"]= "1";
+					}
+					if ($field_field_floor_area[0]["rendered"]["#markup"]=="5+"){
+						$result->field_field_floor_area[0]["rendered"]["#markup"]= "5";
+					}			
+				}
+				//var_dump(array_keys($field_field_commodities));
+				foreach ($field_field_commodities as $key => $value) {
+					//var_dump(array_keys($value));
+					//var_dump($value["rendered"]);
+				} 
+			
+			
+			}			
+		}
+		else{
+			var_dump(array_keys($view->display));
+			var_dump($view->getDisplay());
+		}
+		
+		$dumpy = ob_get_clean();	
+		watchdog('realestate12', $dumpy);
+	}
+}
+
+
+function real_estast_tools_views_pre_render(&$view) {
+  if ($view->name == 'annonce_feeds2') {
+    // View result update logic.
+    // e.g.
+    // $result = array();
+    // foreach ($view->result as $k => $row) {
+    //   if (whatever is your condition) {
+    //     $result[$k] = $row;
+    //   }
+    // }
+
+    // Assuming $result has data as per your logic.
+    // Update the pager according to result.
+	ob_start();
+	foreach ($view->result as $result) {
+      // Replace all empty fields with the dash '-' character.
+     // $annonce_feeds = get_object_vars($result);
+	 $field_field_commodities = $result->field_field_commodities;
+	  
+		//var_dump(array_keys($annonce_feeds));
+		//var_dump(get_object_vars($result));
+		var_dump(array_keys($field_field_commodities));
+		foreach ($field_field_commodities as $key => $value) {
+			//var_dump(array_keys($value));
+			var_dump($value["rendered"]);
+		} 
+    
+    
+    }
+	$dumpy = ob_get_clean();	
+		watchdog('realestate2', $dumpy);
+  }
+}
