@@ -1,0 +1,628 @@
+.views-exposed-form .description{
+  display: none;
+}
+
+.testimonials img {
+    width: initial !important;
+    display: initial !important;
+    padding-bottom: 10px;
+}
+
+/*Mise a  jour du top header*/
+section#headline.headline.section div.container div.region.region-headline div#block-block-5.block.block-block div.content address.contact-info{
+	margin-top: 0;
+}
+img.realesate-icon:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+img.realesate-icon:nth-child(3) {
+    margin-right: 5px;
+}
+div#block-block-8 span img.realesate-icon,
+div#block-block-9 span img.realesate-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div#page header#header.header.section.navbar.navbar-default{
+	background: #fff200;
+}
+div#page section#headline.headline.section{
+	background: #275093;
+	color: #fff;
+}
+
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li,
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu{
+	border: none;
+}
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li a{
+	color: #fff;
+}
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li a:hover{
+	color: #fff200;
+}
+
+/*Mise أ  jour du menu*/
+div#page header#header.header.section.navbar.navbar-default > div.container > nav#main-menu-inner.collapse.navbar-collapse.width > div.region.region-main-menu > div#block-tb-megamenu-main-menu.block.block-tb-megamenu > div.content > div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega > a:hover,
+div#page header#header.header.section.navbar.navbar-default > div.container > nav#main-menu-inner.collapse.navbar-collapse.width > div.region.region-main-menu > div#block-tb-megamenu-main-menu.block.block-tb-megamenu > div.content > div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.open > a
+{
+	color: #275093;
+}
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a:focus,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item > a:focus,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a:hover,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a{
+	color: #275093;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu{
+	background: #fff200;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu > div.mega-dropdown-inner div.tb-megamenu-row.row-fluid li.tb-megamenu-item.level-2.mega a{
+	color: #000;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu > div.mega-dropdown-inner div.tb-megamenu-row.row-fluid li.tb-megamenu-item.level-2.mega a:hover{
+	color: #fff;
+	background-color: #275093;
+}
+
+/*Mise أ  jour du slider principal*/
+div.view.view-slideshow.view-id-slideshow div.view-content div.flexslider.flexslider-processed ul.slides li div.fieldset.views-fieldset div.fieldset-inner.views-fieldset div.fieldset-action.views-fieldset div.views-field.views-field-view-node span.field-content a{
+	background: #275093;
+}
+
+div.view.view-slideshow.view-id-slideshow div.view-content div.flexslider.flexslider-processed ul.slides li div.fieldset.views-fieldset div.fieldset-inner.views-fieldset div.fieldset-content.views-fieldset{
+	background: #fff200;
+}
+
+/*Mise أ  jour du bloc secondaire*/
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset{
+	background-color: rgba(255, 242, 0, 0.9);
+}
+/*Oranger #f68c0f*/
+/*Jaune background-color: rgba(255, 253, 0, 0.9);*/
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset div.views-field.views-field-title span.field-content a{
+	color: #275093 !important;
+}
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset div.views-field.views-field-body{
+	color: #000;
+}
+
+/*Vue أ  onglets*/
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs h2{
+	color: #275093;
+}
+
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list{
+	background: #275093;
+}
+
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li.active a.active::before{
+	border: 2px solid #fff200;	
+}
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li.active a.active.quicktabs-loaded{
+	color: #fff200;
+}
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li a{
+	color: #fff;
+}
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li a:hover{
+	color: #fff200;
+}
+
+div.quicktabs-tabpage div.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-image-group.views-fieldset div.property-price-group.views-fieldset div.views-field.views-field-field-property-status div.field-content{
+	background: #275093;
+}
+
+div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper div#quicktabs-container-property_filter.quicktabs_main div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix{
+	background: #fff200;
+}
+
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-info-group.views-fieldset{
+	border-top: 1px solid #275093;
+}
+
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-address-group.views-fieldset,
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-info-group.views-fieldset{
+	color: #275093;
+}
+
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-address-group.views-fieldset div.views-field.views-field-field-reference div.field-content{
+	display: inline-block;
+}
+
+/*Icأ´nes pour les sous-menus*/
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu ul.tb-megamenu-nav.nav li.tb-megamenu-item.mega.dropdown a.dropdown-toggle span.caret{
+	margin-right: -8px;
+}
+
+/*Top head Telephone*/
+section#headline.headline.section div.container div.region.region-headline div#block-block-5.block.block-block  a{
+	color: #fff;
+}
+
+section#headline.headline.section div.container div.region.region-headline div#block-block-5.block.block-block  a:hover,
+section#headline.headline.section div.container div.region.region-headline div#block-block-5  div.content ul li:nth-child(1):hover,
+section#headline.headline.section div.container div.region.region-headline div#block-block-5  div.content ul li:nth-child(2):hover{
+	color: #fff200;
+}
+
+/*Top head language*/
+div#block-locale-language.block.block-locale h2{
+	display: none;
+}
+
+div#block-menu-menu-social-menu.block.block-menu {
+	width: 14%;
+	float: right;
+}
+
+
+div#block-locale-language.block.block-locale{
+    width: 18%;
+    float: right;
+}
+
+
+section#headline.headline.section div.container div.region.region-headline div#block-block-5{
+	width: 72%;
+	padding-left: 98px;
+}
+
+
+
+div#block-locale-language.block.block-locale div.content ul.language-switcher-locale-url{
+	list-style: none;
+}
+
+div#block-locale-language.block.block-locale div.content ul.language-switcher-locale-url li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#block-locale-language.block.block-locale div.content ul.language-switcher-locale-url li a.language-link{
+	color: #fff;
+}
+
+div#block-locale-language.block.block-locale div.content ul.language-switcher-locale-url li a.language-link:hover{
+	color: #fff200;
+}
+
+
+section#headline.headline.section div.container{
+	padding-left: 0px;
+}
+
+
+div#block-menu-menu-social-menu.block.block-menu {
+    width: 10%;
+    float: right;
+}
+
+div#block-block-5.block.block-block div.content ul li{
+    display: inline-block;	
+	vertical-align: top;
+}
+
+
+div#block-block-5.block.block-block div.content ul li:nth-child(1){
+    width: 30%;    
+}
+
+div#block-block-5.block.block-block div.content ul li:nth-child(2){
+    width: 28%;
+}
+
+div#block-block-5.block.block-block div.content ul li:nth-child(3){
+    width: 30%;
+}
+
+div#block-block-5.block.block-block div.content ul li span,
+div#block-block-5.block.block-block div.content ul li:nth-child(2) a,
+div#block-block-5.block.block-block div.content ul li:nth-child(3) a{
+	padding-left: 5px;
+}
+
+div#block-block-5.block.block-block div.content ul{
+	list-style: none;
+}
+
+
+
+/*Annonce détaillée*/
+#main #content article.node.node-properties  div.content div.group-price.field-group-div div.field.field-name-field-price,
+#main #content article.node.node-properties  div.content div.group-price.field-group-div div.field.field-name-field-price-euro{
+	background: #f68c0f;
+	color: white;	
+}
+
+#main #content article.node.node-properties div.content div.group-price.field-group-div div.field.field-name-field-property-status{
+	background: #275093;
+	color: white;		
+}
+
+div.group-main-information.field-group-div{
+	background: #fff200;
+	color: #000;
+}
+h3#ui-accordion-1-header-0.field-group-format-toggler.accordion-item.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all.ui-accordion-icons a,
+h3#ui-accordion-1-header-0.field-group-format-toggler.accordion-item.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all.ui-accordion-icons span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e{
+	color: #fff;
+}
+
+h3#ui-accordion-1-header-0.field-group-format-toggler.accordion-item.ui-accordion-header.ui-helper-reset.ui-state-default.ui-accordion-icons.ui-corner-all{
+	background: #275093;
+}
+
+h3#ui-accordion-1-header-0.field-group-format-toggler.accordion-item.ui-accordion-header.ui-helper-reset.ui-state-default.ui-accordion-icons.ui-accordion-header-active.ui-state-active.ui-corner-top{
+	background: #fff200;
+}
+
+div#page section#title-wrapper.section div.container h1#page-title.title{
+	background: #275093;
+	color: #fff200;
+	
+}
+
+.node-type-properties div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-block-8.block.block-block div.content div.row div.for_more_info_text p a,
+.node-type-properties div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-block-9.block.block-block div.content div.row div.for_more_info_text p a{
+	color: #275093;
+}
+
+.node-type-properties div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-block-8.block.block-block div.content div.row div.for_more_info_text p a:hover,
+.node-type-properties div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-block-9.block.block-block div.content div.row div.for_more_info_text p a:hover{
+	background-color: #275093;
+	color: #fff;
+}
+
+/*Masquer les champs du formulaire*/
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content form#properties-node-form.node-form.node-properties-form div div#edit-field-latitude.field-type-text.field-name-field-latitude.field-widget-text-textfield.form-wrapper,
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content form#properties-node-form.node-form.node-properties-form div div#edit-field-longitude.field-type-text.field-name-field-longitude.field-widget-text-textfield.form-wrapper,
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content form#properties-node-form.node-form.node-properties-form div div#edit-field-address.field-type-addressfield.field-name-field-address.field-widget-addressfield-standard.form-wrapper div#field-address-add-more-wrapper div#addressfield-wrapper fieldset#edit-field-address-und-0.form-wrapper div.fieldset-wrapper div.form-item.form-type-select.form-item-field-address-und-0-country,
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content form#properties-node-form.node-form.node-properties-form div div#edit-body.field-type-text-with-summary.field-name-body.field-widget-text-textarea-with-summary.form-wrapper div#body-add-more-wrapper div.text-format-wrapper fieldset#edit-body-und-0-format.filter-wrapper.form-wrapper,
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content form#properties-node-form.node-form.node-properties-form div div.vertical-tabs.clearfix{
+	display: none;
+}
+
+/*Footer breadcrumb*/
+div#page section#breadcrumb.section{
+	background: #275093;
+	color: #fff;
+}
+
+div#page footer#footer.section div.container div.region.region-footer div#block-block-3.block.block-block{
+	width: 100%;
+	float: none;	
+}
+
+div#page footer#footer.section{
+	background: #fff200;
+	color: #000;
+}
+
+div#page footer#footer.section div.container div.region.region-footer{
+	border: none;
+}
+div#page footer#footer.section div.container div.region.region-footer div#block-block-3.block.block-block div.content p a{
+	color: #000;
+}
+
+div#page footer#footer.section div.container div.region.region-footer div#block-block-3.block.block-block div.content p a:hover{
+	color: #275093;
+}
+
+div#block-block-2--2.block.block-block div.content ul.social_footer li i.fa.fa-phone {
+    margin-left: 5px;
+}
+
+div#block-block-2--2.block.block-block div.content ul.social_footer{
+	list-style: none;
+}
+
+div#block-block-2--2.block.block-block div.content ul.social_footer li i{
+	margin-right: 5px;
+}
+
+div#page section#breadcrumb.section div.container div.breadcrumb a{
+	color: #fff;
+}
+
+div#page section#breadcrumb.section div.container div.breadcrumb a:hover{
+	color: #fff200;
+}
+
+div#page a.btn-btt:hover,
+div#page a.btn-btt:focus{
+	background: #fff200;
+	color: #275093;
+	opacity: 1;	
+}
+
+/*Block au dessous de l'article détaillé*/
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-block-8.block.block-block,
+div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-block-9.block.block-block{
+	background: #fff;
+	line-height: 1.6;
+	color: #767676;
+	font-size: 18px;
+	font-weight: 500;	
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*Formatter les lies des reseaux sociaux*/
+article.node-properties div.social_sharing ul.social-list {
+    list-style: none;
+	margin-left: 30px;
+}
+
+article.node.node-properties div.social_sharing ul.social-list li.social-list__item {
+    font-size: 2.6rem;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+article.node.node-properties div.social_sharing ul.social-list li.social-list__item a{
+	color: #275093;
+}
+
+article.node.node-properties div.social_sharing ul.social-list li.social-list__item a:hover{
+	color: #fff200;
+}
+
+article.node.node-properties div.field.field-name-field-social-shares div.field-items div.field-item,
+article.node.node-properties div.group-lateral-zone.field-group-div div.group-social-shares h3 {
+	display: none;
+}
+
+/*Les icônes dans le box jaune*/
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_1::before {
+	background-position: 0 -482px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_2::before {
+	background-position: 0 -21px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_3::before {
+	background-position: 0 -43px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_4::before {
+	background-position: 0 -106px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_5::before {
+	background-position: 0 -135px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_6::before {
+	background-position: 0 -202px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_7::before {
+	background-position: 0 -237px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_8::before {
+	background-position: 0 -168px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_9::before {
+	background-position: 0 -298px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_10::before {
+	background-position: 0 -269px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_11::before {
+	background-position: 0 -330px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_12::before {
+	background-position: 0 -403px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_13::before {
+	background-position: 0 -1px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_14::before {
+	background-position: 0 -69px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_15::before {
+	background-position: 0 -452px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_16::before {
+	background-position: 0 -428px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities .commodity_id_17::before {
+	background-position: 0 -365px;
+}
+
+#main #content .node .group-main-information .field-name-field-commodities div.field-items div.field-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 18px;
+    overflow: hidden;
+    background-image: url("../images/sprite_commodities.png");
+    background-repeat: no-repeat;
+}
+
+
+#main #content .node .group-main-information div.field-items div.field-item{
+	padding-left: 26px;
+	position: relative;	
+}
+
+#main #content .node .group-main-information div.field-name-field-commodities.checkchouka div.field-items div.field-item{
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+/*Search Form*/
+form[id^='views-exposed-form-properties'] div div.views-exposed-form div.views-exposed-widgets.clearfix div.views-exposed-widget.views-submit-button input#edit-submit-properties.form-submit{
+	background-color: #275093;
+}
+
+form[id^='views-exposed-form-properties'] div div.views-exposed-form div.views-exposed-widgets.clearfix div.views-exposed-widget.views-submit-button input#edit-submit-properties.form-submit:hover{
+	background-color: #fff200;
+	color: #000;
+}
+
+/*Articles Listing*/
+div.view.properties-grid-page div.view-content div div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.views-field.views-field-title span.field-content a:hover{
+	color: #275093 !important;	
+}
+
+div.view.view-properties.view-id-properties div.view-content div.views-view-grid div.property-image-group.views-fieldset div.property-price-group.views-fieldset ,
+div.property-image-group.views-fieldset div.property-price-group.views-fieldset{
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+div.property-price-group div.views-field.views-field-field-property-status{
+	position: absolute;
+	right: -20px;
+}
+
+div.view.view-properties div.property-image-group div.property-price-group.views-fieldset div.dinar-euro-group.views-fieldset,
+div.property-image-group div.property-price-group.views-fieldset div.dinar-euro-group.views-fieldset{
+	position: absolute;
+	bottom: 0px;
+}
+
+div.view.view-properties div.property-image-group div.property-price-group.views-fieldset div.dinar-euro-group.views-fieldset div.views-field.views-field-field-price-euro{
+	padding: 10px 20px;
+	background-color: #275093;	
+}
+
+
+.slideshow .views-field-field-price-euro {
+    padding: 10px 20px;
+    background: #f68c0f;
+    color: white;
+}
+
+.properties-grid-page .property-image-group .property-price-group .views-field-field-price-euro{
+	padding: 10px 20px;
+	background-color: #275093;	
+}
+	
+div.view.view-properties div.property-image-group div.property-price-group.views-fieldset div.views-field.views-field-field-property-status div.field-content,
+div.view div.property-image-group div.property-price-group.views-fieldset div.views-field.views-field-field-property-status div.field-content
+ {
+    background-color: #fff200 !important;
+    color: #000 !important;
+}	
+
+div.view.view-properties.view-id-properties.properties-grid-page div.view-content div.views-view-grid.cols-3 div.views-row.row-1.row-first.clearfix div.grid.views-col.col-3.col-last div.grid-inner.col-inner.clearfix div.views-field.views-field-title span.field-content a:hover{
+	color: #275093 !important;
+}
+
+div.view.view-properties.view-id-properties.properties-grid-page div.views-field.views-field-field-reference div.field-content,
+div.view.view-properties.view-id-properties.properties-grid-page div.views-field.views-field-field-location div.field-content,
+div.view.view-related-properties.view-id-related_properties.properties-grid-page div.views-field.views-field-field-reference div.field-content,
+div.view.view-related-properties.view-id-related_properties.properties-grid-page div.views-field.views-field-field-location div.field-content{
+	display: inline-block;
+}
+
+div#quicktabs-container-property_filter  div.quicktabs-tabpage div.view.properties-grid-page  div.property-address-group.views-fieldset div.views-field.views-field-field-location div.field-content a{
+	color: #fff;
+	background-color: #275093;
+	padding: 3px;
+}
+
+div#quicktabs-container-property_filter  div.quicktabs-tabpage div.view.properties-grid-page  div.property-address-group.views-fieldset div.views-field.views-field-field-location div.field-content a:hover{
+	color: #fff200;
+	background-color: #000;
+	padding: 3px;
+}
+
+div#block-views-related-properties-block div.dinar-euro-group.views-fieldset div.views-field.views-field-field-price,
+div#block-views-related-properties-block div.dinar-euro-group.views-fieldset div.views-field.views-field-field-price-euro{
+	padding: 10px 8px;
+}
+/*Our Services*/
+div#block-views-we-are-offer-block div.view.view-we-are-offer.offer-list  div.view-content div.grid-inner:hover,
+div#block-views-we-are-offer-block-2 div.view.view-we-are-offer.offer-list div.view-content div.grid-inner:hover {
+	background: #275093 !important;
+}
+
+div#block-views-we-are-offer-block div.view.view-we-are-offer.offer-list div.view-content div.grid-inner div.views-field.views-field-title span.field-content a,
+div#block-views-we-are-offer-block-2 div.view.view-we-are-offer.offer-list div.view-content div.grid-inner div.views-field.views-field-title span.field-content a{
+	color: #275093 !important;
+}
+
+div#block-views-we-are-offer-block div.view.view-we-are-offer.offer-list div.view-content div.grid-inner:hover div.views-field.views-field-title span.field-content a,
+div#block-views-we-are-offer-block-2 div.view.view-we-are-offer.offer-list div.view-content div.grid-inner:hover div.views-field.views-field-title span.field-content a{
+	color: #fff200 !important;
+}
+
+
+div#block-views-we-are-offer-block div.view.view-we-are-offer.offer-list div.view-content div.grid-inner:hover div.views-field .field-content a,
+div#block-views-we-are-offer-block-2 div.view.view-we-are-offer.offer-list div.view-content div.grid-inner:hover div.views-field .field-content a{
+	color: #fff200 !important;
+}
+
+div#block-views-we-are-offer-block div.view.view-we-are-offer.offer-list div.view-content div.grid-inner div.views-field .field-content a,
+div#block-views-we-are-offer-block-2 div.view.view-we-are-offer.offer-list div.view-content div.grid-inner div.views-field .field-content a{
+	color: #275093 !important;
+}
+
+
+/**Footer Menu Link**/
+div#block-menu-menu-useful-links--2.block.block-menu div.content ul.menu li ul.menu,
+div#block-menu-menu-pages--2.block.block-menu div.content ul.menu li ul.menu{
+	padding-left: 10px;
+}
+
+div#page section#panel-footer.section div.container div.row div.panel-column div.grid-inner.clearfix div.region div.block div.content a:hover{
+	color: #fff200;
+}
+
+div#block-tb-megamenu-menu-social-menu--2.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-menu-social-menu ul.tb-megamenu-nav.nav li{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;	
+}
+
+#main.main.section div.container div.row div#content.column article.node.node-page div.content div.field div.field-items div.field-item h2{
+	font-size: 1.6em;
+}
+
+/* Affichage des blocks inférieurs*/
+div#block-views-agents-block div.content div.view.view-agents.view-id-agents div.view-content div.views-view-grid.cols-2 div.views-row.clearfix div.grid-inner.col-inner.clearfix div.agent-detail.views-fieldset div.views-field-field-phone.field-phone-style,
+div#block-views-agents-block div.content div.view.view-agents.view-id-agents div.view-content div.views-view-grid.cols-2 div.views-row.clearfix div.grid-inner.col-inner.clearfix div.agent-detail.views-fieldset div.views-field-field-fax.field-fax-style{
+	display: none;
+}
+
+div.agent-detail.views-fieldset div.views-field.views-field-field-email div.field-content a{
+	color: #275093;
+}
+
+div.agent-detail.views-fieldset div.views-field.views-field-field-email div.field-content a:hover{
+	color: #fff;
+	background-color: #275093;	
+}
+
+@media screen and (max-width: 991px) {
+	div#block-block-5.block.block-block div.content ul.social_footer li:nth-child(2) {
+		display: none;
+	}
+}

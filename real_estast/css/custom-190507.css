@@ -1,0 +1,16 @@
+.views-exposed-form .description{
+  display: none;
+}
+
+.views-exposed-form .form-submit {
+
+    margin-top: 26px !important;
+}
+
+.testimonials img {
+    width: initial !important;
+    display: initial !important;
+        padding-bottom: 10px;
+
+
+}

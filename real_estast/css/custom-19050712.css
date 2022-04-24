@@ -1,0 +1,75 @@
+.views-exposed-form .description{
+  display: none;
+}
+
+.views-exposed-form .form-submit {
+
+    margin-top: 26px !important;
+}
+
+.testimonials img {
+    width: initial !important;
+    display: initial !important;
+        padding-bottom: 10px;
+
+
+}
+
+/*Mise à jour du top header*/
+div#page section#headline.headline.section{
+	background: #fff200;
+	color: #000;
+}
+
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li,
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu{
+	border: none;
+}
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li a{
+	color: #000;
+}
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li a:hover{
+	color: #275093;
+}
+
+/*Mise à jour du menu*/
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a:focus,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a:hover,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a{
+	color: #275093;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu{
+	background: #fff200;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu > div.mega-dropdown-inner div.tb-megamenu-row.row-fluid li.tb-megamenu-item.level-2.mega a{
+	color: #000;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu > div.mega-dropdown-inner div.tb-megamenu-row.row-fluid li.tb-megamenu-item.level-2.mega a:hover{
+	color: #fff;
+	background-color: #275093;
+}
+
+/*Mise à jour du slider principal*/
+div.view.view-slideshow.view-id-slideshow div.view-content div.flexslider.flexslider-processed ul.slides li div.fieldset.views-fieldset div.fieldset-inner.views-fieldset div.fieldset-action.views-fieldset div.views-field.views-field-view-node span.field-content a{
+	background: #275093;
+}
+
+div.view.view-slideshow.view-id-slideshow div.view-content div.flexslider.flexslider-processed ul.slides li div.fieldset.views-fieldset div.fieldset-inner.views-fieldset div.fieldset-content.views-fieldset{
+	background: #fff200;
+}
+
+/*Mise à jour du bloc secondaire*/
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset{
+	background-color: rgba(255, 242, 0, 0.9);
+}
+/*Oranger #f68c0f*/
+/*Jaune background-color: rgba(255, 253, 0, 0.9);*/
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset div.views-field.views-field-title span.field-content a{
+	color: #275093 !important;
+}
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset div.views-field.views-field-body{
+	color: #000;
+}

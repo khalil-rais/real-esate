@@ -1,0 +1,120 @@
+.views-exposed-form .description{
+  display: none;
+}
+
+.views-exposed-form .form-submit {
+
+    margin-top: 26px !important;
+}
+
+.testimonials img {
+    width: initial !important;
+    display: initial !important;
+        padding-bottom: 10px;
+
+
+}
+
+/*Mise à jour du top header*/
+div#page header#header.header.section.navbar.navbar-default{
+	background: #fff200;
+}
+div#page section#headline.headline.section{
+	background: #275093;
+	color: #fff;
+}
+
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li,
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu{
+	border: none;
+}
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li a{
+	color: #fff;
+}
+div#block-menu-menu-social-menu.block.block-menu div.content ul.menu li a:hover{
+	color: #fff200;
+}
+
+/*Mise à jour du menu*/
+div#page header#header.header.section.navbar.navbar-default > div.container > nav#main-menu-inner.collapse.navbar-collapse.width > div.region.region-main-menu > div#block-tb-megamenu-main-menu.block.block-tb-megamenu > div.content > div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega > a:hover,
+div#page header#header.header.section.navbar.navbar-default > div.container > nav#main-menu-inner.collapse.navbar-collapse.width > div.region.region-main-menu > div#block-tb-megamenu-main-menu.block.block-tb-megamenu > div.content > div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.open > a
+{
+	color: #275093;
+}
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a:focus,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item > a:focus,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a:hover,
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.active > a{
+	color: #275093;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu{
+	background: #fff200;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu > div.mega-dropdown-inner div.tb-megamenu-row.row-fluid li.tb-megamenu-item.level-2.mega a{
+	color: #000;
+}
+
+div#block-tb-megamenu-main-menu.block.block-tb-megamenu div.content div.tb-megamenu.tb-megamenu-main-menu > ul.tb-megamenu-nav.nav > li.tb-megamenu-item.mega.dropdown > div.tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu > div.mega-dropdown-inner div.tb-megamenu-row.row-fluid li.tb-megamenu-item.level-2.mega a:hover{
+	color: #fff;
+	background-color: #275093;
+}
+
+/*Mise à jour du slider principal*/
+div.view.view-slideshow.view-id-slideshow div.view-content div.flexslider.flexslider-processed ul.slides li div.fieldset.views-fieldset div.fieldset-inner.views-fieldset div.fieldset-action.views-fieldset div.views-field.views-field-view-node span.field-content a{
+	background: #275093;
+}
+
+div.view.view-slideshow.view-id-slideshow div.view-content div.flexslider.flexslider-processed ul.slides li div.fieldset.views-fieldset div.fieldset-inner.views-fieldset div.fieldset-content.views-fieldset{
+	background: #fff200;
+}
+
+/*Mise à jour du bloc secondaire*/
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset{
+	background-color: rgba(255, 242, 0, 0.9);
+}
+/*Oranger #f68c0f*/
+/*Jaune background-color: rgba(255, 253, 0, 0.9);*/
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset div.views-field.views-field-title span.field-content a{
+	color: #275093 !important;
+}
+div#block-views-featured-properties-block.block.block-views.animation div.content div.view.view-featured-properties.view-id-featured_properties.view-display-id-block.featured-properties div.view-content div.metro-layout.horizontal div.content.clearfix div.views-metro-container.items div.box.views-metro-item div.item-inner div.fieldset.views-fieldset div.views-field.views-field-body{
+	color: #000;
+}
+
+/*Vue à onglets*/
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs h2{
+	color: #275093;
+}
+
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list{
+	background: #fff200;
+}
+
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li.active a.active.quicktabs-loaded::before{
+	border: 2px solid #275093;	
+}
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li.active a.active.quicktabs-loaded{
+	color: #000;
+}
+.front div#page section#main.main.section div.container div.row div.col-md- div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper.quicktabs-style-nostyle div.item-list ul.quicktabs-tabs.quicktabs-style-nostyle li a.quicktabs-loaded{
+	color: #000;
+}
+
+div.quicktabs-tabpage div.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-image-group.views-fieldset div.property-price-group.views-fieldset div.views-field.views-field-field-property-status div.field-content{
+	background: #275093;
+}
+
+div#content.column div.section div.region.region-content div#block-system-main.block.block-system div.content article.node.node-page.clearfix div.content div.field.field-name-field-block.field-type-blockreference.field-label-hidden div.field-items div.field-item div#block-quicktabs-property-filter.block.block-quicktabs div.content div#quicktabs-property_filter.quicktabs-wrapper div#quicktabs-container-property_filter.quicktabs_main div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix{
+	background: #fff200;
+}
+
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-info-group.views-fieldset{
+	border-top: 1px solid #275093;
+}
+
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-address-group.views-fieldset,
+div.quicktabs-tabpage div.view.view-frontpage.view-id-frontpage.view-display-id-page.properties-grid-page.animation div.view-content div.views-view-grid div.views-row.clearfix div.grid.views-col div.grid-inner.col-inner.clearfix div.property-info-group.views-fieldset{
+	color: #275093;
+}
